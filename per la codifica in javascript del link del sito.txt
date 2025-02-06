@@ -1,0 +1,13 @@
+// Funzione per codificare in base64
+function encodeUrlToBase64(url) {
+    return btoa(url);
+}
+
+// URL da codificare
+const url = "https://amzooon.github.io/credentials/credential-hyr587788olw57h5878yh8ho23q%C3%A8I%C3%A0939eje92iejwow01%C3%AC'w%C3%A0%C3%A8as%C3%A0qwlqwdow02,wlqp12pwlwkqwpoqwpoeOJW";
+
+// Codifica l'URL
+const urlBase64 = encodeUrlToBase64(url);
+
+// Visualizza il risultato
+console.log(urlBase64);
